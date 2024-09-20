@@ -1,0 +1,29 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vuepic/vue-datepicker": "^9.0.1",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.4",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "lucide-vue-next": "^0.418.0",
+    "pinia": "^2.2.0",
+    "sweetalert2": "^11.6.13",
+    "vue": "^3.4.38",
+    "vue-multiselect": "^3.0.0",
+    "vue-router": "^4.4.0",
+    "vue3-datepicker": "^0.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}

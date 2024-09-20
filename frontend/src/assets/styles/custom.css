@@ -1,0 +1,89 @@
+.pagination .page-item .disabled-link {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.pagination .page-item .page-link:focus {
+    --tw-ring-offset-shadow: unset;
+    --tw-ring-shadow: unset;
+    box-shadow: unset;
+    --tw-ring-color: unset;
+    --tw-ring-opacity: unset;
+}
+.table-report .loader {
+    box-shadow: unset;
+    margin: 0 auto;
+}
+.table-report td.transparent {
+    box-shadow: unset !important;
+    border-bottom-width: 0px !important;
+    --tw-bg-opacity: unset !important;
+    background-color: unset !important;
+}
+.swal2-confirm.btn,
+.outline-none:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.index-top-1 {
+    z-index: 1;
+}
+
+.multiselect__tags {
+    min-height: 38px !important;
+}
+
+.multiselect__placeholder {
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+.multiselect__tags input[type="text"]:focus {
+    --tw-ring-color: unset !important;
+    --tw-ring-offset-shadow: unset !important;
+    --tw-ring-shadow: unset !important;
+    box-shadow: unset !important;
+    border-color: unset !important;
+}
+
+.multiselect--disabled {
+    background: unset !important;
+}
+
+.multiselect--disabled .multiselect__tags,
+.multiselect--disabled .multiselect__single {
+    background: #ededed;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #f6f6f6 !important;
+}
+
+.multiselect__option--highlight,
+.multiselect__option--highlight::after {
+    background: rgb(var(--color-primary) / var(--tw-bg-opacity)) !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 255, 255, 1);
+}
